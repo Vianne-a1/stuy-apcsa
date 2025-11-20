@@ -1,0 +1,19 @@
+Reading Input: Extract pasture dimensions (N, M), time duration (T), pasture layout (with '*' for trees), and cow's initial and final positions from the input file.
+
+Creating Pasture Grid: Make a 2D array representing the pasture with '.' for open spaces and '*' for trees.
+
+Counting Routes: Create a 3D array to track the number of ways for each position and time.
+
+Setting Initial Condition: Start with the cow at (R1, C1) at time 0.
+
+Iterative Calculation: Use a loop to compute the number of ways for each position and time. Update counts based on adjacent positions while avoiding trees.
+
+Finding Final Solution: Sum up solutions for reaching the final position (R2, C2) at time T.
+
+Outputting Result: Output the total number of ways (S) as a single integer.
+
+File Operations: Read input from one file and write output to another.
+
+Testing: Verify the program's correctness using provided sample input.
+
+Optimizing Efficiency: Improve code efficiency considering input size constraints.

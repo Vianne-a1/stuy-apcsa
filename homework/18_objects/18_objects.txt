@@ -1,0 +1,28 @@
+What instance variables should the Employee class have?
+
+What do the instance variables represent? What are the types of those instance variables? What methods would you implement in your Employee class?
+
+Employee ID: This is a unique identifier for each employee.
+
+Type: String or int (depends on the format and requirements).
+Name: The full name of the employee.
+
+Type: String.
+Date of Birth: The birthdate of the employee.
+
+Type: Date or String.
+Department: The department in which the employee works.
+
+Type: String.
+Position/Title: The job title or position of the employee.
+
+Type: String.
+Salary: The salary or hourly wage of the employee.
+
+Type: Double or BigDecimal for precision.
+Date of Joining: The date when the employee joined the company.
+
+Type: Date or String.
+Contact Information: Email address or phone number.
+
+Type: String.
