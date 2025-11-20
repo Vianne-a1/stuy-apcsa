@@ -1,0 +1,5 @@
+Start Buble Array by getting an unsorted array. 
+For each pass, we will move left to right swapping adjacent elements as needed. Each pass moves the next largest element into its final position (these will be shown in green).
+Starting at array[0] or the first value of the array; compare this value to the next value. If the value is greater than the next value, swap their positions. If they are not greater, then the new greater value will be selected and they will be compared to the rest of the array.
+Upon completion of this code, the largestvalue of the array should be at the enf of the array. 
+Repeat lines 3 to 5 until sorted. 

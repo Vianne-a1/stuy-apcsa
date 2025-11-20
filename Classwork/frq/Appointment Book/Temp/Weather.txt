@@ -1,0 +1,14 @@
+import Java.utils.ArrayList
+
+public class WeatherData
+{
+    private ArrayList <Double> temperatures;
+    ArrayList temp = temperatures;
+    public void CleanData (double lower, double upper){
+        for (int i = 0; i<temp.length; i++){
+            if (temp[i] < lower && temp[i] > greater){
+                temp [i] = null;
+            }
+        }
+    }
+}

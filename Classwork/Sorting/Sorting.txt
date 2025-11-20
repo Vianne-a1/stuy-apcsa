@@ -1,0 +1,5 @@
+Pusedo code for the sorting algorithm.
+Takes first value and sets a new variable (named minimum) equal the the first value in the array
+Loop thorugh the code and array.
+    If the int i is less than the value of minimum, the value of minimum is then replaced with the new minimum.
+    If the int i is more than or equal to the value of minimum, then move onto the next value in the array as per the loop. 

@@ -1,0 +1,18 @@
+x = [1,2,3,4,5,6,7,8,9,0]
+
+key = x[1]
+key (pos) - 1 compare to key. If greater, key (pos) = key (pos) - 1
+
+public static void main(wtv here){
+    for (int i = 1; i<x.length; i++){
+        key = x[i]
+        for int t = 1; t<i; t++
+        if (x[i-t] > key){
+            x[i] = x[i-t]
+        }
+        if (x[i-t] <= key){
+           x[i-t] = key
+            break;
+        }
+    }
+}
