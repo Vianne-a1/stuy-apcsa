@@ -1,0 +1,11 @@
+Write at least one paragrath explaining your solution in the file solution.txt. Please be clear.
+
+First, we create a Scanner to get the user input for n, the number of steps. Then, we have to create a for loop based on n. 
+We'll create two variables to track the movement of the drone, one called xCor and one called yCor. These will be updated during each iteration of the for loop.
+This for loop will iterate from 0 to n, and each time, we will make the computer choose a random double from 0 to 1. 
+If this double is in the range of [0, 0.25), then it moves right 1 unit, meaning that we will add 1 to xCor. 
+If this double is in the range of [0.25, 0.50), then it moves up 1 unit, meaning that we will add 1 to yCor.
+If this double is in the range of [0.50, 0.75), then it moves left 1 unit, meaning that we subtract 1 from xCor. 
+If this double is in the range of [0.75, 1.00), then it moves down 1 unit, meaning that we subtract 1 from yCor. 
+At the end of the for loop, we return the final xCor and yCor. Based on these, we make a variable called Distance that will use the Pythagorean Theorem to calculate
+the distance between the two points.
